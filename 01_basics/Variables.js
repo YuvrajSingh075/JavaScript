@@ -4,6 +4,8 @@ var accountPassoeword = "123456"
 accountCity = "Jaipur";
 
 // accountId = 2 not allowed
+/* Prefer not use var becouse of issue in block scope and functional scope */
+
 
 accountEmail = "hc@hello.com"
 accountPassoeword = "121212"
