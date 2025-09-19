@@ -29,3 +29,26 @@ const myFunction = function(){
     console.log("Yuvraj Singh")
 }
 
+// `````````````````````````````````` Memory ```````````````````````````````````````
+
+// stack(Primitive) and Heap(Non-primitive)
+
+let myYoutubeName = "yuvrajsinghdot.com"
+
+let anothername = myYoutubeName;
+anothername = "chaiOrcode";
+console.log(anothername);
+
+// heap memory--
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email = "hitesh@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
